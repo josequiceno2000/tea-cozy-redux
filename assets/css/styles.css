@@ -197,8 +197,63 @@ header {
     }
 }
 
-
 .section-title {
     text-transform: uppercase;
     font-size: 2rem;
 }
+
+#tea-month {
+    margin: 40px auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.month-cards {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.month-card-image {
+    opacity: 0.9;
+    width: 260px;
+    height: 260px;
+    border-radius: 60%;
+    box-shadow: 6px 8px 4px #1a022866;
+    cursor: pointer;
+    transition: 0.22s ease-in-out;
+}
+
+.month-card-image:hover {
+    opacity: 1;
+    box-shadow: 6px 8px 4px #31044a9f;
+}
+
+.month-card a {
+    text-decoration: none;
+}
+
+
+.month-card-caption {
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+    transition: 0.22s ease-in-out;
+}
+
+.month-card-caption:hover {
+    margin-top: 20px;
+    color: #c282e6;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.32rem;
+}
+
