@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/media/tea-cozy-favicon2.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <title>Tea Cozy</title>
@@ -18,17 +19,19 @@
 
         <div class="header-right">
             <nav>
-                <ul>
-                    <li>
-                        <a href="#">Mission</a>
-                    </li>
-                    <li>
-                        <a href="#">Featured Tea</a>
-                    </li>
-                    <li>
-                        <a href="#">Locations</a>
-                    </li>
-                </ul>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn" aria-label="Toggle navigation">
+                    <i class="fas fa-bars icon-open"></i>
+                    <i class="fas fa-xmark icon-close"></i>
+                </label>
+
+                <label for="check" class="nav-overlay"></label>
+
+                <div class="nav">
+                    <a href="#">Mission</a>
+                    <a href="#">Featured Tea</a>
+                    <a href="#">Locations</a>
+                </div>
             </nav>
         </div>
         
