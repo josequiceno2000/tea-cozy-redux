@@ -15,7 +15,7 @@ header {
 }
 
 .site-logo-image {
-    height: 5vh;
+    width: 50%;
 }
 
 #check {
@@ -102,4 +102,12 @@ header {
 #check:checked ~ .nav-overlay {
     opacity: 1;
     visibility: visible;
+}
+
+.hero-background {
+    width: 100%;
+}
+
+.hero-background img {
+    width: 100%;
 }
