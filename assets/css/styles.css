@@ -259,3 +259,35 @@ header {
     font-size: 1.32rem;
 }
 
+.locations {
+    position: relative;
+}
+
+.locations-background {
+    width: 100%;
+}
+
+.locations-background-img {
+    width: 100%;
+}
+
+.locations-content {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 25%;
+    left: 25%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3rem 3rem;
+    border-radius: 1.2rem;
+    border: 1px solid white;
+}
+
+#locations-title {
+    margin-bottom: 20px;
+}
+
+
+
+
