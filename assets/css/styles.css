@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #302B33;
     color: white;
 }
 
@@ -8,10 +8,14 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: black;
+    background-color: #1e1025;
     color: white;
     position: relative;
     z-index: 100;
+}
+
+.site-logo-image {
+    height: 5vh;
 }
 
 #check {
@@ -25,10 +29,11 @@ header {
     z-index: 1002;
     position: relative;
     user-select: none;
+    height: 5vh;
 }
 
 .checkbtn:hover {
-    color: #8E43BA;
+    color: #c282e6;
 }
 
 .checkbtn .icon-close {
@@ -41,6 +46,7 @@ header {
 
 #check:checked ~ .checkbtn .icon-close {
     display: block;
+    height: 5vh;
 }
 
 .nav {
@@ -66,7 +72,7 @@ header {
 
 .nav a {
     color: #fff;
-    padding: .5rem 1rem;
+    padding: .5rem 1.5rem;
     display: block;
     text-decoration: none;
     text-transform: uppercase;
@@ -76,7 +82,7 @@ header {
 }
 
 .nav a:hover {
-    color: #8E43BA;
+    color: #c282e6;
     background-color: rgba(255, 255, 255, 0.05);
 }
 
